@@ -1,0 +1,1 @@
+cmd_/home/akshay_anvekar/Desktop/OS_assgn3/hellon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/akshay_anvekar/Desktop/OS_assgn3/hellon.ko /home/akshay_anvekar/Desktop/OS_assgn3/hellon.o /home/akshay_anvekar/Desktop/OS_assgn3/hellon.mod.o ;  true
